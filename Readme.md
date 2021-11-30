@@ -19,7 +19,8 @@
 ## 常见问题解决
 
 1. 识别精度不高：
-   解决方案：由于github限制文件大于100m文件提交，所以高精度service模型就没上传，如有需要可自行去[PaddleOCR地址](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.3/README_ch.md)下载
+   解决方案1：[0.2.0版本](https://github.com/HKMV/anywhere-ocr/releases/tag/0.2.0) 提供了 [高精度版本](https://github.com/HKMV/anywhere-ocr/releases/download/0.2.0/anywhere-ocr_high_x64.zip)下载。
+   解决方案2：也可以自行去[PaddleOCR地址](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.3/README_ch.md)下载高精度service模型，进行替换 `/Dll/inference` 目录中的对应文件即可。
 2. 翻译时弹出提示 “当前页面脚本发生错误”：
    解决方案：控制面板 -> Internet选项 -> 安全 -> 本地Internet -> 站点，把所有勾选取消
 3. 无法正常翻译
